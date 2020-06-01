@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Demo</title>
+</head>
+<body>
+
+<h1>This is a demo for Flask App.</h1>
+<div class="form">
+    <form action="/math" method="POST">
+        <label for="operation"> Choose a Mathematical Operation </label>
+        <select id="operation" name="operation">
+            <option value="add">add</option>
+            <option value="sub">subtract</option>
+            <option value="mul">multiply</option>
+            <option value="div">divide</option>
+        </select>
+            <input type="text" name="num1" id="num1">
+            <input type="text" name="num2" id="num2">
+            <input type="submit" value="Calculate">
+    </form>
+</div>
+
+</body>
+</html>
